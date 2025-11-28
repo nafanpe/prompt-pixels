@@ -95,3 +95,12 @@ All colors MUST be HSL.
     background: var(--gradient-primary);
   }
 }
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
